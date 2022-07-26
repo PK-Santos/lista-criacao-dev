@@ -1,6 +1,7 @@
 package pksantos.listacriacaodev.desafiodois;
 import java.util.Scanner;
-public class desafioDois {
+
+public class DesafioDois {
 	public static void main(String[] args) {
 		
 		Scanner entrada = new Scanner(System.in);
@@ -13,8 +14,8 @@ public class desafioDois {
 		int qtMinuto = hora * 60;
 		int qtSegundo = qtMinuto * 60;
 	
-		System.out.println("A quantidade de horas em minutos é: " + qtMinuto);
-		System.out.println("A quantidade de minutos em segundos é: " + qtSegundo);
+		System.out.println("A quantidade de horas em minutos ï¿½: " + qtMinuto);
+		System.out.println("A quantidade de minutos em segundos ï¿½: " + qtSegundo);
 	}
 
 }

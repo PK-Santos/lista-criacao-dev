@@ -2,18 +2,20 @@ package pksantos.listacriacaodev.desafiotres;
 import java.util.Scanner;
 import java.text.DecimalFormat; 
 
-public class desafioTres {
+//Nome de Classe sempre comeca com letra maiuscula
+public class DesafioTres {
 	public static void main(String[] args) {
 		DecimalFormat df = new DecimalFormat("#,###.0");
 		Scanner entrada = new Scanner(System.in);
         
         System.out.println("Digite a temperatura em Celsius: ");
-        double Celsius;
-        Celsius = entrada.nextInt();
+        //nome de variavel sempre comeca com letra minuscula 
+        double celsius;
+        celsius = entrada.nextInt();
         
-        double Farenheit = Celsius * 1.8 + 32;
+        double farenheit = celsius * 1.8 + 32;
         
-        System.out.println("A temperatura em Farenheit é: " + df.format(Farenheit) + "°F");
+        System.out.println("A temperatura em Farenheit ï¿½: " + df.format(farenheit) + "ï¿½F");
         
 	}
 }

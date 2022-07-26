@@ -1,24 +1,24 @@
 package pksantos.listacriacaodev.desafiocinco;
 import java.util.Scanner;
-public class desafioCinco {
+public class DesafioCinco {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		
-		//será adicionado o valor de cada nota e multiplicado pelo peso da matéria
-		System.out.println("Informe sua nota em matemática: ");
+		//serï¿½ adicionado o valor de cada nota e multiplicado pelo peso da matï¿½ria
+		System.out.println("Informe sua nota em matemï¿½tica: ");
 		double matematica = entrada.nextDouble() * 3;
-		System.out.println("Informe sua nota em física: ");
+		System.out.println("Informe sua nota em fï¿½sica: ");
 		double fisica = entrada.nextDouble() * 2.5;
-		System.out.println("informe sua nota em química: ");
+		System.out.println("informe sua nota em quï¿½mica: ");
 		double quimica = entrada.nextDouble() * 2.5;
-		System.out.println("Informe sua nota em português: ");
+		System.out.println("Informe sua nota em portuguï¿½s: ");
 		double portugues = entrada.nextDouble() * 1;
-		System.out.println("Informe sua nota em inglês: ");
+		System.out.println("Informe sua nota em inglï¿½s: ");
 		double ingles = entrada.nextDouble() * 1;
 		
 		double media = (matematica + fisica + quimica + portugues + ingles) / (3 + 2.5 + 
 				2.5 + 1 + 1);
 		
-		System.out.println("Sua média final foi de : " + media);
+		System.out.println("Sua mï¿½dia final foi de : " + media);
 	}
 }

@@ -1,6 +1,6 @@
 package pksantos.listacriacaodev.desafioquatro;
 import java.util.Scanner;
-public class desafioQuatro {
+public class DesafioQuatro {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		
